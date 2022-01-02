@@ -11,9 +11,9 @@ license: AGPLv3
 # TODO
 date: 2021-01-02
 
-homepage: https://github.com/fabbari/OctoPrint-Console
-source: https://github.com/fabbari/OctoPrint-Console
-archive: https://github.com/fabbari/OctoPrint-Console/archive/master.zip
+homepage: https://github.com/fabbarix/OctoPrint-Console
+source: https://github.com/fabbarix/OctoPrint-Console
+archive: https://github.com/fabbarix/OctoPrint-Console/archive/master.zip
 
 # TODO
 # Set this to true if your plugin uses the dependency_links setup parameter to include

@@ -2,7 +2,7 @@ Metadata-Version: 1.0
 Name: OctoPrint-Console
 Version: 0.1.0
 Summary: A web based console for OctoPrint
-Home-page: https://github.com/fabbari/OctoPrint-Console
+Home-page: https://github.com/fabbarix/OctoPrint-Console
 Author: Fabio Torchetti
 Author-email: fabbari@gmail.com
 License: AGPLv3

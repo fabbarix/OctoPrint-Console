@@ -27,7 +27,7 @@ plugin_author = "Fabio Torchetti"
 plugin_author_email = "fabbari@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/fabbari/OctoPrint-Console"
+plugin_url = "https://github.com/fabbarix/OctoPrint-Console"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"

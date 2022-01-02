@@ -74,7 +74,7 @@ class OctoConsolePlugin(
                 "current": self._plugin_version,
 
                 # update method: pip
-                "pip": "https://github.com/fabbari/OctoPrint-Console/archive/{target_version}.zip",
+                "pip": "https://github.com/fabbarix/OctoPrint-Console/archive/{target_version}.zip",
             }
         }
 
