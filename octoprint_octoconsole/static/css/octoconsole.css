@@ -1,0 +1,7 @@
+#tab_plugin_octoconsole {
+    overflow: scroll;
+}
+
+#tab_plugin_octoconsole #octoconsole_terminal {
+    width: 100%;
+}
