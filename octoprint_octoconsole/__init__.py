@@ -10,6 +10,7 @@ from .server.ws_server import ShellServer
 class OctoConsolePlugin(
     octoprint.plugin.StartupPlugin,
     octoprint.plugin.ShutdownPlugin,
+    octoprint.plugin.EventHandlerPlugin,
     octoprint.plugin.SettingsPlugin,
     octoprint.plugin.AssetPlugin,
     octoprint.plugin.TemplatePlugin
@@ -25,6 +26,9 @@ class OctoConsolePlugin(
     def on_shutdown(self):
         self._logger.info(f"OctoPrint Stopping WebSockets")
         self.server.stop()
+
+    def on_event(self, event, payload):
+        self._logger.info(f"{event} Payload: {str(payload)}")
 
     ##~~ SettingsPlugin mixin
 
@@ -74,7 +78,7 @@ class OctoConsolePlugin(
                 "current": self._plugin_version,
 
                 # update method: pip
-                "pip": "https://github.com/fabbarix/OctoPrint-Console/archive/{target_version}.zip",
+                "pip": "https://github.com/fabbarix/OctoPrint-Console/archive/refs/tags/v{target_version}.zip",
             }
         }
 
